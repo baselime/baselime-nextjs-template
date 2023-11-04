@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@baselime/lambda-logger": "^0.2.2",
-    "@baselime/node-opentelemetry": "^0.2.9",
+    "@baselime/node-opentelemetry": "^0.2.10",
     "next": "14.0.1",
     "pino": "^8.16.1",
     "react": "^18",
