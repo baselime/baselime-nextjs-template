@@ -1,9 +1,12 @@
 import Image from 'next/image'
 import { logger } from '@baselime/lambda-logger';
+import { headers } from 'next/headers'
 export default function Home() {
 
+  const headerList = headers();
   logger.info("Hello from Next.js", {
     meta: {
+      requestId: headerList.get('x-vercel-id'),
       source: "page.tsx",
     }
   });
