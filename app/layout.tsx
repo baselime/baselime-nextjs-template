@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { BaselimeRum } from '@baselime/react-rum'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <BaselimeRum apiKey={process.env.NEXT_PUBLIC_BASELIME_API_KEY as string} enableWebVitals fallback={<h1>An error occured</h1>}>
+          {children}
+        </BaselimeRum></body>
     </html>
   )
 }
