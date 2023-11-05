@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project with Opentelemetry, BaselimeHQ, and Real User Monitoring.
 
+Deployed to Vercel
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbaselime%2Fbaselime-nextjs-template&project-name=next-baselime-opentelemetry&repository-name=next-baselime-opentelemetry&demo-title=Baselime&demo-description=See%20the%20deployed%20data%20for%20this%20project&demo-url=https%3A%2F%2Fsandbox.baselime.io%2Fbaselime%2Fvercel-baselime%2Fdefault%2Fhome&demo-image=https%3A%2F%2Fbaselime.io%2Fdocs%2Fassets%2Fimages%2Fillustrations%2Fsending-data%2Fvercel.png&integration-ids=oac_Giinlv0yMW9d97AysfaDTS6z)
 
 ## Logging
