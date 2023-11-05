@@ -1,6 +1,6 @@
-# Next.js OpenTelemetry Baselime
+# Next.js Baselime OpenTelemetry
 
-This is a [Next.js](https://nextjs.org/) project with OpenTelemetry, BaselimeHQ, and Real User Monitoring.
+This is a [Next.js](https://nextjs.org/) project with [Baselime](https://console.baselime.io), [OpenTelemetry](https://opentelemetry.io/) and Real User Monitoring.
 
 ## Deployment
 
