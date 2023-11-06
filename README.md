@@ -1,6 +1,8 @@
-# Next.js Baselime OpenTelemetry
+# Next.js Baselime Template with OpenTelemetry
 
-This is a [Next.js](https://nextjs.org/) project with [Baselime](https://console.baselime.io), [OpenTelemetry](https://opentelemetry.io/) and Real User Monitoring.
+![image](./assets/og.png)
+
+This is a [Next.js](https://nextjs.org/) project instrumented with [OpenTelemetry](https://opentelemetry.io/) and [Real User Monitoring](https://baselime.io/docs/sending-data/react-rum/) and sending logs and traces to [Baselime](https://console.baselime.io).
 
 ## Deployment
 
@@ -10,13 +12,15 @@ This project is deployed to Vercel
 
 ## Logging
 
-See request latency, logs and coldstarts
+This template will automatically install the [Baselime Vercel Integration](https://vercel.com/integrations/baselime) which will setup a log drain to automatically capture all the logs from your Vercel projects.
 
-![image](https://github.com/baselime/baselime-nextjs-template/assets/7361428/08f645fb-dff3-4e24-8b70-8e37ce8fbc7c)
+![image](./assets/logs.png)
 
 ## Distributed Tracing With OpenTelemetry
 
-![image](https://github.com/baselime/baselime-nextjs-template/assets/7361428/a33b9b7b-9e72-49e7-bd7a-60a94c12f7d5)
+This template is instrumented with the [Baselime OpenTelemetry SDK for Next.js](). This instrumentation will automatically capture distributed traces from your Next.js application and export them to Baselime for analysis.
+
+![image](./assets/traces.png)
 
 
 ## Instructions
