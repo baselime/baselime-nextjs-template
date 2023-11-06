@@ -1,8 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Baselime OpenTelemetry
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/baselime/baselime-nextjs-template&integration-ids=oac_Giinlv0yMW9d97AysfaDTS6z)
+This is a [Next.js](https://nextjs.org/) project with [Baselime](https://console.baselime.io), [OpenTelemetry](https://opentelemetry.io/) and Real User Monitoring.
 
-## Getting Started
+## Deployment
+
+This project is deployed to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbaselime%2Fbaselime-nextjs-template&project-name=next-baselime-opentelemetry&repository-name=next-baselime-opentelemetry&demo-title=Baselime&demo-description=See%20the%20deployed%20data%20for%20this%20project&demo-url=https%3A%2F%2Fsandbox.baselime.io%2Fbaselime%2Fvercel-baselime%2Fdefault%2Fhome&demo-image=https%3A%2F%2Fbaselime.io%2Fdocs%2Fassets%2Fimages%2Fillustrations%2Fsending-data%2Fvercel.png&integration-ids=oac_Giinlv0yMW9d97AysfaDTS6z)
+
+## Logging
+
+See request latency, logs and coldstarts
+
+![image](https://github.com/baselime/baselime-nextjs-template/assets/7361428/08f645fb-dff3-4e24-8b70-8e37ce8fbc7c)
+
+## Distributed Tracing With OpenTelemetry
+
+![image](https://github.com/baselime/baselime-nextjs-template/assets/7361428/a33b9b7b-9e72-49e7-bd7a-60a94c12f7d5)
+
+
+## Instructions
 
 First, run the development server:
 
@@ -20,19 +37,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* To learn more about baselime go do the [docs](https://baselime.io/docs/)
+* To see the deployed applications logs, and traces go to the [Baselime Console](https://console.baselime.io)
