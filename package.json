@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@baselime/lambda-logger": "^0.2.2",
     "@baselime/node-opentelemetry": "^0.2.10",
     "@baselime/react-rum": "^0.2.5",
     "next": "14.0.1",

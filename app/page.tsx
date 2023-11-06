@@ -1,28 +1,25 @@
 import Image from 'next/image'
-import { logger } from '@baselime/lambda-logger';
+import pino from 'pino';
 import { headers } from 'next/headers'
+
+const logger = pino();
 export default function Home() {
 
   const headerList = headers();
-  logger.info("Hello from Next.js", {
+  
+  logger.info({
     meta: {
       requestId: headerList.get('x-vercel-id'),
       source: "page.tsx",
     }
-  });
+  }, "Hello from Next.js");
 
-  logger.debug("Debug from Next.js", {
+  logger.error({
     meta: {
       source: "page.tsx",
     }
-  });
+  }, "Error from Next.js");
 
-
-  logger.error("Error from Next.js", {
-    meta: {
-      source: "page.tsx",
-    }
-  });
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
